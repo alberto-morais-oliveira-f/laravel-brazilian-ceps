@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LSNepomuceno\\LaravelBrazilianCeps\\": "./src"
+            "Am2Tec\\LaravelBrazilianCeps\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LSNepomuceno\\LaravelBrazilianCeps\\Tests\\": "tests"
+            "Am2Tec\\LaravelBrazilianCeps\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "am2tec\\LaravelBrazilianCeps\\LaravelBrazilianCepsServiceProvider"
+                "Am2Tec\\LaravelBrazilianCeps\\LaravelBrazilianCepsServiceProvider"
             ]
         }
     },
