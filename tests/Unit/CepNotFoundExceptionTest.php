@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Unit;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Unit;
 
-use LSNepomuceno\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
-use LSNepomuceno\LaravelBrazilianCeps\Services\CepService;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\TestCase;
+use Am2Tec\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
+use Am2Tec\LaravelBrazilianCeps\Services\CepService;
+use Am2Tec\LaravelBrazilianCeps\Tests\TestCase;
 
 class CepNotFoundExceptionTest extends TestCase
 {

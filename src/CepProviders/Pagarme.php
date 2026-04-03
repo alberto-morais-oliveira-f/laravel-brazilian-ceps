@@ -1,11 +1,11 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\CepProviders;
+namespace Am2Tec\LaravelBrazilianCeps\CepProviders;
 
 use Exception;
 use Illuminate\Support\Facades\Http;
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Enums\States;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Enums\States;
 use ReflectionException;
 
 class Pagarme extends BaseCepProvider

@@ -1,8 +1,8 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Unit;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Unit;
 
-use LSNepomuceno\LaravelBrazilianCeps\Tests\TestCase;
+use Am2Tec\LaravelBrazilianCeps\Tests\TestCase;
 
 class ConfigTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests;
+namespace Am2Tec\LaravelBrazilianCeps\Tests;
 
 use Illuminate\Support\Facades\Http;
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\Helpers\DefaultValues;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Tests\Helpers\DefaultValues;
 
 class HttpTestCase extends TestCase
 {

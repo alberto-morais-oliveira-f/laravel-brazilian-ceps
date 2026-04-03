@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Helpers;
+namespace Am2Tec\LaravelBrazilianCeps\Helpers;
 
 class MaskHelper
 {

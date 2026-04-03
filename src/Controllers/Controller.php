@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Controllers;
+namespace Am2Tec\LaravelBrazilianCeps\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

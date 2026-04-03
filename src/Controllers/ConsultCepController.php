@@ -1,11 +1,11 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Controllers;
+namespace Am2Tec\LaravelBrazilianCeps\Controllers;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use LSNepomuceno\LaravelBrazilianCeps\Resources\CepResource;
-use LSNepomuceno\LaravelBrazilianCeps\Services\CepService;
+use Am2Tec\LaravelBrazilianCeps\Resources\CepResource;
+use Am2Tec\LaravelBrazilianCeps\Services\CepService;
 
 class ConsultCepController extends Controller
 {

@@ -1,36 +1,38 @@
 <h1 align="center">Search addresses easily with Laravel Brazilian CEPs</h1>
 
 <p align="center">
-  <a href="https://github.com/lsnepomuceno/laravel-brazilian-ceps/releases/latest">
-    <img src="https://poser.pugx.org/lsnepomuceno/laravel-brazilian-ceps/v" alt="Latest Stable Version">
+  <a href="https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/releases/latest">
+    <img src="https://poser.pugx.org/am2tec/laravel-brazilian-ceps/v" alt="Latest Stable Version">
   </a>
-  <a href="https://packagist.org/packages/lsnepomuceno/laravel-brazilian-ceps/stats">
-    <img src="https://poser.pugx.org/lsnepomuceno/laravel-brazilian-ceps/downloads" alt="Total Downloads">
+  <a href="https://packagist.org/packages/am2tec/laravel-brazilian-ceps/stats">
+    <img src="https://poser.pugx.org/am2tec/laravel-brazilian-ceps/downloads" alt="Total Downloads">
   </a>
-  <a href="https://github.com/lsnepomuceno/laravel-brazilian-ceps/tree/dev">
-    <img src="https://poser.pugx.org/lsnepomuceno/laravel-brazilian-ceps/v/unstable" alt="Latest Unstable Version">
+  <a href="https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/tree/main">
+    <img src="https://poser.pugx.org/am2tec/laravel-brazilian-ceps/v/unstable" alt="Latest Unstable Version">
   </a>
-  <a href="https://github.com/lsnepomuceno/laravel-brazilian-ceps/blob/main/LICENSE.md">
-    <img src="https://poser.pugx.org/lsnepomuceno/laravel-brazilian-ceps/license" alt="License">
+  <a href="https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/blob/main/LICENSE.md">
+    <img src="https://poser.pugx.org/am2tec/laravel-brazilian-ceps/license" alt="License">
   </a>
-  <a href="https://github.com/lsnepomuceno/laravel-brazilian-ceps/actions/workflows/main_action.yml">
-    <img src="https://github.com/lsnepomuceno/laravel-brazilian-ceps/actions/workflows/action_laravel_11.yml/badge.svg?branch=main" alt="Tests">
+  <a href="https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/actions/workflows/main_action.yml">
+    <img src="https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/actions/workflows/action_laravel_11.yml/badge.svg?branch=main" alt="Tests">
   </a>
 </p>
 
 # Minimum requirements
-* PHP: ^8.1, ^8.2, ^8.3 ^8.4
-* Laravel: 9, 10, 11 or 12
+* PHP: 8.1, 8.2, 8.3 or 8.4
+* Laravel: 9, 10, 11, 12 or 13
 * PHP Extensions: fileinfo, mbstring, json
 
 # Install
 Require this package in your composer.json and update composer. This will download the package and the dependencies libraries also.
 
 ```Shell
-composer require lsnepomuceno/laravel-brazilian-ceps
+composer require am2tec/laravel-brazilian-ceps
 ```
 
-Export the settings file using the command below
+Laravel package discovery will register the service provider automatically.
+
+Export the settings file using the command below:
 ```Shell
 php artisan vendor:publish --tag=brazilian-ceps
 ```
@@ -42,7 +44,7 @@ php artisan vendor:publish --tag=brazilian-ceps
 ```PHP
 <?php
 
-use LSNepomuceno\LaravelBrazilianCeps\Services\CepService;
+use Am2Tec\LaravelBrazilianCeps\Services\CepService;
 
 class ExampleController() {
     // PHP 8: Constructor property promotion
@@ -58,10 +60,10 @@ class ExampleController() {
 
 ```
 
-### The returned value will have the structure below, see [CepEntity](https://github.com/lsnepomuceno/laravel-brazilian-ceps/blob/main/src/Entities/CepEntity.php):
+### The returned value will have the structure below, see [CepEntity](https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/blob/main/src/Entities/CepEntity.php):
 
 ```PHP
- LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity {
+ Am2Tec\LaravelBrazilianCeps\Entities\CepEntity {
     city: string,
     cep: string,
     street: string,
@@ -90,8 +92,8 @@ class ExampleController() {
 ```PHP
 <?php
 
-use LSNepomuceno\LaravelBrazilianCeps\Services\CepService;
-use LSNepomuceno\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
+use Am2Tec\LaravelBrazilianCeps\Services\CepService;
+use Am2Tec\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
 
 class ExampleController() {
     // PHP 8: Constructor property promotion
@@ -130,7 +132,7 @@ class ExampleController() {
     <tr>
       <td>GET</td>
       <td>api/consult-cep/{cep}</td>
-      <td>LSNepomuceno\LaravelBrazilianCeps\Controllers\ConsultCepController</td>
+      <td>Am2Tec\LaravelBrazilianCeps\Controllers\ConsultCepController</td>
       <td>consult-cep.api</td>
     </tr>
   </tbody>
@@ -190,7 +192,7 @@ class ExampleController() {
 
 #### To ensure the delivery of data, several public providers are used, with this, the need to standardize and apply tests for better code quality was seen. About 70+ tests are included in the package.
 
-#### Tests can be verified through the badge [![tests badge](https://github.com/lsnepomuceno/laravel-brazilian-ceps/actions/workflows/action_laravel_11.yml/badge.svg?branch=main)](https://github.com/lsnepomuceno/laravel-brazilian-ceps/actions/workflows/main_action.yml)
+#### Tests can be verified through the badge [![tests badge](https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/actions/workflows/action_laravel_11.yml/badge.svg?branch=main)](https://github.com/alberto-morais-oliveira-f/laravel-brazilian-ceps/actions/workflows/main_action.yml)
 
 
 ## License

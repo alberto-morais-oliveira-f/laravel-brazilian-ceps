@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Enums;
+namespace Am2Tec\LaravelBrazilianCeps\Enums;
 
 use Illuminate\Support\Str;
 

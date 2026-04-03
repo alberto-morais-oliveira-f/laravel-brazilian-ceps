@@ -1,9 +1,9 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Unit;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Unit;
 
-use LSNepomuceno\LaravelBrazilianCeps\Helpers\MaskHelper;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\TestCase;
+use Am2Tec\LaravelBrazilianCeps\Helpers\MaskHelper;
+use Am2Tec\LaravelBrazilianCeps\Tests\TestCase;
 
 class MaskHelperTest extends TestCase
 {

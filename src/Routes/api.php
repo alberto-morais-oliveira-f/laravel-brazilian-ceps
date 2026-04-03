@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LSNepomuceno\LaravelBrazilianCeps\Controllers\ConsultCepController;
+use Am2Tec\LaravelBrazilianCeps\Controllers\ConsultCepController;
 
 $middleware = config('brazilian-ceps.api_route_middleware');
 

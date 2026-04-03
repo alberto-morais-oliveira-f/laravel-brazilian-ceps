@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Helpers;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Helpers;
 
 class DefaultValues
 {

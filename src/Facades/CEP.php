@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Facades;
+namespace Am2Tec\LaravelBrazilianCeps\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Services\CepService;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Services\CepService;
 
 /**
  * @method static null|CepEntity get(string $cep)

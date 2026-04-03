@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps;
+namespace Am2Tec\LaravelBrazilianCeps;
 
 use Illuminate\Support\ServiceProvider;
 

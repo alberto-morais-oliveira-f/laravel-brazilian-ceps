@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Exceptions;
+namespace Am2Tec\LaravelBrazilianCeps\Exceptions;
 
 use Exception;
 use Stringable;

@@ -1,9 +1,9 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Unit;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Unit;
 
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\TestCase;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Tests\TestCase;
 
 class CepEntityTest extends TestCase
 {

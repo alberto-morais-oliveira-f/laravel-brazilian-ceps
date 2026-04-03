@@ -1,10 +1,9 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests;
+namespace Am2Tec\LaravelBrazilianCeps\Tests;
 
 use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Support\Facades\Artisan;
-use LSNepomuceno\LaravelBrazilianCeps\LaravelBrazilianCepsServiceProvider;
+use Am2Tec\LaravelBrazilianCeps\LaravelBrazilianCepsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 /**
@@ -28,14 +27,6 @@ class TestCase extends Orchestra
 
     protected function defineEnvironment($app): void
     {
-        $app['config']->set('database.default', 'testing');
-    }
-
-    protected function defineDatabaseMigrations(): void
-    {
-        if ((int) app()->version() >= 11) {
-            Artisan::call('make:cache-table');
-        }
-        Artisan::call('migrate');
+        $app['config']->set('cache.default', 'array');
     }
 }

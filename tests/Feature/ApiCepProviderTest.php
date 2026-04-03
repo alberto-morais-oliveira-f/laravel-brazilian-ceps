@@ -1,12 +1,12 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Feature;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Feature;
 
 use Exception;
 use Illuminate\Support\Facades\Http;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\ApiCep;
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\HttpTestCase;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\ApiCep;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Tests\HttpTestCase;
 
 class ApiCepProviderTest extends HttpTestCase
 {

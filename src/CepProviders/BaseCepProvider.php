@@ -1,10 +1,10 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\CepProviders;
+namespace Am2Tec\LaravelBrazilianCeps\CepProviders;
 
 use Illuminate\Http\Client\PendingRequest;
-use LSNepomuceno\LaravelBrazilianCeps\Contracts\ConsultableCEPProvider;
-use LSNepomuceno\LaravelBrazilianCeps\Helpers\MaskHelper;
+use Am2Tec\LaravelBrazilianCeps\Contracts\ConsultableCEPProvider;
+use Am2Tec\LaravelBrazilianCeps\Helpers\MaskHelper;
 use ReflectionClass;
 use ReflectionException;
 

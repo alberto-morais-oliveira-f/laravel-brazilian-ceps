@@ -1,8 +1,8 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Contracts;
+namespace Am2Tec\LaravelBrazilianCeps\Contracts;
 
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
 
 interface ConsultableCEPProvider
 {

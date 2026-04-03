@@ -1,9 +1,9 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Tests\Unit;
+namespace Am2Tec\LaravelBrazilianCeps\Tests\Unit;
 
-use LSNepomuceno\LaravelBrazilianCeps\Enums\States;
-use LSNepomuceno\LaravelBrazilianCeps\Tests\TestCase;
+use Am2Tec\LaravelBrazilianCeps\Enums\States;
+use Am2Tec\LaravelBrazilianCeps\Tests\TestCase;
 
 class StatesEnumTest extends TestCase
 {

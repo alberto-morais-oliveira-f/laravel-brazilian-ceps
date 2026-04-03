@@ -1,20 +1,20 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Services;
+namespace Am2Tec\LaravelBrazilianCeps\Services;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Traits\Conditionable;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\ApiCep;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\BrasilApiV1;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\BrasilApiV2;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\OpenCep;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\Pagarme;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\Postomon;
-use LSNepomuceno\LaravelBrazilianCeps\CepProviders\ViaCep;
-use Lsnepomuceno\LaravelBrazilianCeps\Contracts\ConsultableCEPProvider;
-use LSNepomuceno\LaravelBrazilianCeps\Entities\CepEntity;
-use LSNepomuceno\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
-use LSNepomuceno\LaravelBrazilianCeps\Helpers\MaskHelper;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\ApiCep;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\BrasilApiV1;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\BrasilApiV2;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\OpenCep;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\Pagarme;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\Postomon;
+use Am2Tec\LaravelBrazilianCeps\CepProviders\ViaCep;
+use Am2Tec\LaravelBrazilianCeps\Contracts\ConsultableCEPProvider;
+use Am2Tec\LaravelBrazilianCeps\Entities\CepEntity;
+use Am2Tec\LaravelBrazilianCeps\Exceptions\CepNotFoundException;
+use Am2Tec\LaravelBrazilianCeps\Helpers\MaskHelper;
 
 class CepService
 {

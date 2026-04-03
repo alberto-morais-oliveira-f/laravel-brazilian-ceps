@@ -1,6 +1,6 @@
 <?php
 
-namespace LSNepomuceno\LaravelBrazilianCeps\Entities;
+namespace Am2Tec\LaravelBrazilianCeps\Entities;
 
 use Illuminate\Contracts\Support\Arrayable;
 
