@@ -1,5 +1,5 @@
 {
-    "name": "lsnepomuceno/laravel-brazilian-ceps",
+    "name": "am2tec/laravel-brazilian-ceps",
     "description": "A package for querying zip codes for Brazilian addresses.",
     "type": "package",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "authors": [
         {
-            "name": "lsnepomuceno",
-            "email": "lsn.nepomuceno@gmail.com"
+            "name": "am2tec",
+            "email": "albertomorais80@gmail.com"
         }
     ],
     "require": {
@@ -20,8 +20,8 @@
         "ext-json": "*",
         "ext-fileinfo": "*",
         "ext-mbstring": "*",
-        "illuminate/support": "^9 || ^10 || ^11 || ^12",
-        "illuminate/http": "^9 || ^10 || ^11 || ^12",
+        "illuminate/support": "^9 || ^10 || ^11 || ^12 || ^13",
+        "illuminate/http": "^9 || ^10 || ^11 || ^12|| ^13",
         "guzzlehttp/guzzle": "^7"
     },
     "autoload": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LSNepomuceno\\LaravelBrazilianCeps\\LaravelBrazilianCepsServiceProvider"
+                "am2tec\\LaravelBrazilianCeps\\LaravelBrazilianCepsServiceProvider"
             ]
         }
     },
